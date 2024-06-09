@@ -1,0 +1,57 @@
+body {
+    justify-content: end;
+    color: rgb(0, 0, 0);
+}
+
+.nav-link-projetos-arquivados {
+    font-size: 2rem;
+    color: #000000;
+}
+
+.pull-right {
+    justify-content: flex-end;
+}
+
+/* Estilizando a barra de navegação */
+.navbar {
+    padding: 10px 20px;
+    /* Espaçamento interno */
+}
+
+/* Estilizando o formulário dentro da barra de navegação */
+.form-inline {
+    display: flex;
+    justify-content: space-between;
+    /* Distribui os elementos horizontalmente */
+    align-items: center;
+    /* Alinha os elementos verticalmente */
+}
+
+/* Estilizando o campo de pesquisa */
+.form-control {
+    width: 300px;
+    /* Largura do campo de pesquisa */
+}
+
+/* Estilizando os botões de filtro e ordenação */
+.ml-auto img {
+    margin-right: 5px;
+    /* Espaçamento entre a imagem e o texto */
+}
+
+/* Estilizando o botão Compartilhar */
+.btn-dark {
+    margin-top: 10px;
+    /* Espaçamento superior */
+    margin-right: 20px;
+    /* Espaçamento direito */
+    display: flex;
+    /* Faz com que os elementos dentro do botão sejam exibidos em linha */
+    align-items: center;
+    /* Alinha os elementos verticalmente */
+}
+
+.btn-dark img {
+    margin-right: 5px;
+    /* Espaçamento entre a imagem e o texto */
+}
